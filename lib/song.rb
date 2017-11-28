@@ -4,7 +4,7 @@ require_relative '../config/environment.rb'
 class Song
   attr_accessor :name
   attr_reader :artist
-  extend Findable
+  include Findable
   extend Memorable
 
   @@songs = []
