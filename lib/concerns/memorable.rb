@@ -5,7 +5,8 @@ module Memorable
   end
 
   def all
-    self.all? { |e|  }
+    self.all
+  end
 
   def count
     self.all.count
