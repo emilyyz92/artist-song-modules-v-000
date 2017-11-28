@@ -3,7 +3,7 @@ module Findable
     find_array = self.all
     find_array.detect{|a|a.name == name}
   end
-  
+
 
 
 end
